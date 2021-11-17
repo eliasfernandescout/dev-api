@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:eliasfernandescout/dev-api.git",
   "author": "elias fernandes <eliasfernandescout@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
