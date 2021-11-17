@@ -5,6 +5,10 @@
   "repository": "git@github.com:eliasfernandescout/dev-api.git",
   "author": "elias fernandes <eliasfernandescout@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
